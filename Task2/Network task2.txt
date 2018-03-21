@@ -1,0 +1,149 @@
+2)Task2. Play with Chrome Developers Toolkit (DevTools), and "Network" tab.
+1.the list of websites, with request and response (including the status-line & headers) of each of them
+1.
+http://sport.ua/
+
+Request Header 
+GET / HTTP/1.1
+Host: sport.ua
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://www.google.com.ua/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+Response Headers
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Tue, 20 Mar 2018 16:50:02 GMT
+Content-Type: text/html; charset=windows-1251
+Content-Length: 19671
+Connection: keep-alive
+-----------------------------------------------------------------
+
+
+
+https://dou.ua/
+
+Request Header 
+GET / HTTP/1.1
+Host: dou.ua
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://www.google.com.ua/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+Response Headers
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 20 Mar 2018 16:49:52 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+https://hotline.ua/
+
+Request Header 
+GET /index.htm HTTP/1.1
+Host: i-m.com.ua
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://i-m.com.ua/lv/home.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+
+Response Headers
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 20 Mar 2018 16:51:35 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+-----------------------------------------------------------------------
+
+
+http://i-m.com.ua
+
+Request Header 
+GET /index.htm HTTP/1.1
+Host: i-m.com.ua
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://i-m.com.ua/lv/home.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+
+Response Headers
+HTTP/1.1 200 OK
+Date: Tue, 20 Mar 2018 16:47:20 GMT
+Server: Apache/2
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+Expires: Tue, 20 Mar 2018 16:47:20 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 9283
+Keep-Alive: timeout=1, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+-----------------------------------------------------------------------
+https://rozetka.com.ua/
+
+Request Header 
+GET / HTTP/1.1
+Host: rozetka.com.ua
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+Response Headers
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 20 Mar 2018 16:52:07 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=75
+Vary: Accept-Encoding
+==============================================================================
+2.the list of headers (from above requests/responses) with descriptions of each (you need to google & find the purpose of each)
+2.
+req=
+Host: Доменне ім'я і порт хоста запитуваного ресурсу. Необхідно для підтримки віртуального хостингу на серверах.
+Connection: Відомості про проведення з'єднання.
+Upgrade-Insecure-Requests: говорить серверу, що браузер хоче отримувати сайт в захищеному режимі (якщо такий для сайта передбачено)
+User-Agent: Список назв і версій клієнта і його компонентів з коментарями.
+Accept: Список допустимих форматів ресурсу.
+Accept-Encoding: Перелік підтримуваних способів кодування вмісту суті при передачі
+Accept-Language: Список підтримуваних природних мов.
+===================================================================================
+res=
+Server: Список назв і версій веб-сервера і його компонентів з коментарями.
+Date: Дата створення відгуку
+Content-Type: Формат і спосіб представлення суті
+Transfer-Encoding: Список способів кодування, які були застосовані до повідомлення для передачі.
+Connection: Відомості про проведення з'єднання
+Content-Length: Розмір вмісту суті зазвичай називають байтами

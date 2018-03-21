@@ -1,0 +1,17 @@
+Task 9. Find and show few (at least 5) resources, where POST method is used
+1.list the URLs of resources
+2.explain how did you detect that POST method was used?
+3.answer to question why the POST is used there
+------------------------------------------------------------
+http://sport.ua/ 
+
+https://dou.ua/ 
+
+https://hotline.ua 
+
+http://i-m.com.ua/ 
+
+https://rozetka.com.ua/
+
+2.In dev tools in tab network we can see POST method.
+3.when i want to log in the site or register new user, POST method used to send data to the server,and after that in DB check my username and pass or add a new one if you don t registred.

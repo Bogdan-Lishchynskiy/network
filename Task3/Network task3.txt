@@ -1,0 +1,19 @@
+Task3. What are differences between HTTP version 1.0 and 1.1?
+1)list of differences between 1.0 and 1.1
+
+1)HTTP 1.1 also allows you to have persistent connections which means that you can have more than one request/response on the same HTTP connection.
+HTTP 1.1 expands on the caching support a lot by using something called 'entity tag'. If 2 resources are the same, then they will have the same entity tags.
+HTTP 1.1 also adds the If-Unmodified-Since, If-Match, If-None-Match conditional headers.
+
+In HTTP 1.0 you had to open a new connection for each request/response pair. And after each response the connection would be closed.
+HTTP 1.0 had support for caching via the header: If-Modified-Since.
+
+2)answer to question - how to pass user-data via GET? via POST? what is the diff?
+2)You can pass data via GET when tou send data from form action by method GET,and yo can see this data in url browser.The same is when you pass or send data via POST but yo can t see data in url(data is in body HTTP req).This is the diff.Also by POST you can send much bigger data or file then by GET method. 
+
+3)few samples of websites (and cases) where POST method is used
+3)Request URL:https://hotline.ua/login/?referer=%2Fcart%2F
+  Request Method:POST
+  Status Code:200 OK
+
+after sumbit form.(for example)

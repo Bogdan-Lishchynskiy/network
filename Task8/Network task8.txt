@@ -1,0 +1,2 @@
+Task 8. What is the different with GET request?
+8)In GET req we see body in res, in HEAD body is empty
