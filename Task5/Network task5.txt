@@ -4,3 +4,4 @@ Task5. Use actions on "Network" tab.
 2.use ordering by columns, sorting, etc
 
 1.So i can use this feature to find the file what i need to see faster by using search" & "filter.
+2.Help in the future to quickly find the necessary files and monitor their size, download speed, loading order and their status etc..
